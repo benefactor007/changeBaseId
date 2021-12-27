@@ -1,0 +1,40 @@
+tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+root@192.168.1.4's password: root
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+[32mPASS[0m
+Trying 192.168.1.4...
+Connected to 192.168.1.4.
+Escape character is '^]'.
+
+vw-infotainment-909859 login: root
+root
+Password: root
+mount-read-write.sh
+chmod +x /tmp/tsd.persistence.client.mib3.app.SetKey
+/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00  --val 0xe5
+/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3  --val 0x583230
+sync
+exit
+
+mount-read-write.sh
+[root@vw-infotainment-909859:~]# [mmount-read-write.sh
+chmod +x /tmp/tsd.persistence.client.mib3.app.SetKey
+[root@vw-infotainment-909859:~]# [mchmod +x /tmp/tsd.persistence.client.mib3.app.S
+etKey
+[root@vw-infotainment-909859:~]# [m/tmp/tsd.persistence.client.mib3.app.SetKey --n
+s 0x80000008 --key 0x00  --val 0xe5
+e5,
+/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3  --val 0x583230
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+[root@vw-infotainment-909859:~]# [m/tmp/tsd.persistence.client.mib3.app.SetKey --n
+s 0x3000000 --key 0xF1A3  --val 0x583230
+58,32,30,
+sync
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 32 30 
+[root@vw-infotainment-909859:~]# [msync
+exit
+[root@vw-infotainment-909859:~]# [mexit
+Connection closed by foreign host.
+[32mPASS[0m

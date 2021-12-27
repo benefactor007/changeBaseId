@@ -1,0 +1,147 @@
+tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+root@192.168.1.4's password: root
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+[32mPASS[0m
+Trying 192.168.1.4...
+Connected to 192.168.1.4.
+Escape character is '^]'.
+
+vw-infotainment-408244 login: root
+root
+Password: root
+mount-read-write.sh
+chmod +x /var/tmp/tsd.persistence.client.mib3.app.SetKey
+/var/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00  --val 0xe5
+/var/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3  --val 0x583230
+sync
+exit
+
+[root@vw-infotainment-408244:~]# [mmount-read-write.sh
+[root@vw-infotainment-408244:~]# [mchmod +x /var/tmp/tsd.persistence.client.mib3.a
+pp.SetKey
+[root@vw-infotainment-408244:~]# [m/var/tmp/tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00  --val 0xe5
+-sh: /var/tmp/tsd.persistence.client.mib3.app.SetKey: Permission denied
+[root@vw-infotainment-408244:~]# [m/var/tmp/tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3  --val 0x583230
+-sh: /var/tmp/tsd.persistence.client.mib3.app.SetKey: Permission denied
+[root@vw-infotainment-408244:~]# [msync
+[root@vw-infotainment-408244:~]# [mexit
+Connection closed by foreign host.
+[32mPASS[0m
+tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+The authenticity of host '192.168.1.4 (192.168.1.4)' can't be established.
+ECDSA key fingerprint is SHA256:Yr/nHU1aKZcifQ2ifNVE7kI2vTIoU+CftYQV6F09gNQ.
+Are you sure you want to continue connecting (yes/no)? tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+The authenticity of host '192.168.1.4 (192.168.1.4)' can't be established.
+ECDSA key fingerprint is SHA256:Yr/nHU1aKZcifQ2ifNVE7kI2vTIoU+CftYQV6F09gNQ.
+Are you sure you want to continue connecting (yes/no)? tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+Something is going wrong, no match was found
+Trying 192.168.1.4...
+Connected to 192.168.1.4.
+Escape character is '^]'.
+
+vw-infotainment-397028 login: root
+root
+Password: root
+mount-read-write.sh
+chmod +x /var/tmp/tsd.persistence.client.mib3.app.SetKey
+/var/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00  --val 0xe5
+/var/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3  --val 0x583230
+sync
+exit
+
+[root@vw-infotainment-397028:~]# [mmount-read-write.sh
+[root@vw-infotainment-397028:~]# [mchmod +x /var/tmp/tsd.persistence.client.mib3.a
+pp.SetKey
+[root@vw-infotainment-397028:~]# [m/var/tmp/tsd.persistence.client.mib3.app.SetKey
+ --ns 0x80000008 --key 0x00  --val 0xe5
+-sh: /var/tmp/tsd.persistence.client.mib3.app.SetKey: Permission denied
+[root@vw-infotainment-397028:~]# [m/var/tmp/tsd.persistence.client.mib3.app.SetKey
+ --ns 0x3000000 --key 0xF1A3  --val 0x583230
+-sh: /var/tmp/tsd.persistence.client.mib3.app.SetKey: Permission denied
+[root@vw-infotainment-397028:~]# [msync
+[root@vw-infotainment-397028:~]# [mexit
+Connection closed by foreign host.
+[32mPASS[0m
+tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+The authenticity of host '192.168.1.4 (192.168.1.4)' can't be established.
+ECDSA key fingerprint is SHA256:Yr/nHU1aKZcifQ2ifNVE7kI2vTIoU+CftYQV6F09gNQ.
+Are you sure you want to continue connecting (yes/no)? tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+Something is going wrong, no match was found
+Trying 192.168.1.4...
+Connected to 192.168.1.4.
+Escape character is '^]'.
+
+vw-infotainment-021707 login: root
+root
+Password: root
+mount-read-write.sh
+chmod +x /tmp/tsd.persistence.client.mib3.app.SetKey
+/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00  --val 0xe5
+/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3  --val 0x583230
+sync
+exit
+
+[root@vw-infotainment-021707:~]# [mmount-read-write.sh
+[root@vw-infotainment-021707:~]# [mchmod +x /tmp/tsd.persistence.client.mib3.app.S
+etKey
+chmod: /tmp/tsd.persistence.client.mib3.app.SetKey: No such file or directory
+[root@vw-infotainment-021707:~]# [m/tmp/tsd.persistence.client.mib3.app.SetKey --n
+s 0x80000008 --key 0x00  --val 0xe5
+-sh: /tmp/tsd.persistence.client.mib3.app.SetKey: not found
+[root@vw-infotainment-021707:~]# [m/tmp/tsd.persistence.client.mib3.app.SetKey --n
+s 0x3000000 --key 0xF1A3  --val 0x583230
+-sh: /tmp/tsd.persistence.client.mib3.app.SetKey: not found
+[root@vw-infotainment-021707:~]# [msync
+[root@vw-infotainment-021707:~]# [mexit
+Connection closed by foreign host.
+[32mPASS[0m
+tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+root@192.168.1.4's password: root
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+[32mPASS[0m
+Trying 192.168.1.4...
+Connected to 192.168.1.4.
+Escape character is '^]'.
+
+vw-infotainment-021707 login: root
+root
+Password: root
+mount-read-write.sh
+chmod +x /tmp/tsd.persistence.client.mib3.app.SetKey
+/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00  --val 0xe5
+/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3  --val 0x583230
+sync
+exit
+
+[root@vw-infotainment-021707:~]# [mmount-read-write.sh
+[root@vw-infotainment-021707:~]# [mchmod +x /tmp/tsd.persistence.client.mib3.app.S
+etKey
+[root@vw-infotainment-021707:~]# [m/tmp/tsd.persistence.client.mib3.app.SetKey --n
+s 0x80000008 --key 0x00  --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+[root@vw-infotainment-021707:~]# [m/tmp/tsd.persistence.client.mib3.app.SetKey --n
+s 0x3000000 --key 0xF1A3  --val 0x583230
+58,32,30,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 32 30 
+[root@vw-infotainment-021707:~]# [msync
+exit
+[root@vw-infotainment-021707:~]# [mexit
+Connection closed by foreign host.
+[32mPASS[0m

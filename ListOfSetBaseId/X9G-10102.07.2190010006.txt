@@ -1,0 +1,65 @@
+tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+The authenticity of host '192.168.1.4 (192.168.1.4)' can't be established.
+ECDSA key fingerprint is SHA256:Yr/nHU1aKZcifQ2ifNVE7kI2vTIoU+CftYQV6F09gNQ.
+Are you sure you want to continue connecting (yes/no)? tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+The authenticity of host '192.168.1.4 (192.168.1.4)' can't be established.
+ECDSA key fingerprint is SHA256:Yr/nHU1aKZcifQ2ifNVE7kI2vTIoU+CftYQV6F09gNQ.
+Are you sure you want to continue connecting (yes/no)? tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+The authenticity of host '192.168.1.4 (192.168.1.4)' can't be established.
+ECDSA key fingerprint is SHA256:Yr/nHU1aKZcifQ2ifNVE7kI2vTIoU+CftYQV6F09gNQ.
+Are you sure you want to continue connecting (yes/no)? tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+The authenticity of host '192.168.1.4 (192.168.1.4)' can't be established.
+ECDSA key fingerprint is SHA256:Yr/nHU1aKZcifQ2ifNVE7kI2vTIoU+CftYQV6F09gNQ.
+Are you sure you want to continue connecting (yes/no)? tsd.persistence.client.mib3.app.SetKey
+192.168.1.4
+It was matching the HU's IP address: 192.168.1.4
+root@192.168.1.4's password: root
+tsd.persistence.client.mib3.app.SetKey          0%    0     0.0KB/s   --:-- ETAtsd.persistence.client.mib3.app.SetKey        100%   16KB  16.4KB/s   00:00    
+[32mPASS[0m
+Trying 192.168.1.4...
+Connected to 192.168.1.4.
+Escape character is '^]'.
+
+mib-infotainment-117518 login: root
+root
+Password: root
+mount-read-write.sh
+chmod +x /var/tmp/tsd.persistence.client.mib3.app.SetKey
+/var/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x80000008 --key 0x00  --val 0xe5
+/var/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x3000000 --key 0xF1A3  --val 0x583230
+/var/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x03000000 --key 0xF187 --val 0x3347423033353836364120
+/var/tmp/tsd.persistence.client.mib3.app.SetKey --ns 0x03000000 --key 0xF191 --val 0x3347423033353836364120
+sync
+exit
+
+[root@mib-infotainment-117518:~]# [mmount-read-write.sh
+[root@mib-infotainment-117518:~]# [mchmod +x /var/tmp/tsd.persistence.client.mib3.
+app.SetKey
+[root@mib-infotainment-117518:~]# [m/var/tmp/tsd.persistence.client.mib3.app.SetKe
+y --ns 0x80000008 --key 0x00  --val 0xe5
+e5,
+store: ns: 80000008 key: 0 slot: 0 status: 0 data: e5 
+[root@mib-infotainment-117518:~]# [m/var/tmp/tsd.persistence.client.mib3.app.SetKe
+y --ns 0x3000000 --key 0xF1A3  --val 0x583230
+58,32,30,
+store: ns: 3000000 key: 61859 slot: 0 status: 0 data: 58 32 30 
+[root@mib-infotainment-117518:~]# [m/var/tmp/tsd.persistence.client.mib3.app.SetKe
+y --ns 0x03000000 --key 0xF187 --val 0x3347423033353836364120
+33,47,42,30,33,35,38,36,36,41,20,
+store: ns: 3000000 key: 61831 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 41 20 
+[root@mib-infotainment-117518:~]# [m/var/tmp/tsd.persistence.client.mib3.app.SetKe
+y --ns 0x03000000 --key 0xF191 --val 0x3347423033353836364120
+33,47,42,30,33,35,38,36,36,41,20,
+store: ns: 3000000 key: 61841 slot: 0 status: 0 data: 33 47 42 30 33 35 38 36 36 41 20 
+[root@mib-infotainment-117518:~]# [msync
+[root@mib-infotainment-117518:~]# [mexit
+Connection closed by foreign host.
+[32mPASS[0m
